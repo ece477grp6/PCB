@@ -4,3 +4,6 @@
 [submodule "Adafruit-Eagle-Library"]
 	path = Adafruit-Eagle-Library
 	url = https://github.com/adafruit/Adafruit-Eagle-Library.git
+[submodule "lib/eagle_libs"]
+	path = lib/eagle_libs
+	url = https://github.com/barthess/eagle_libs.git
