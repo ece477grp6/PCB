@@ -32722,28 +32722,6 @@ new: Attribute TP_SIGNAL_NAME&lt;br&gt;
 <busses>
 </busses>
 <nets>
-<net name="N$18" class="0">
-<segment>
-<pinref part="CMP_BRKOUT" gate="G$1" pin="1"/>
-<wire x1="76.2" y1="124.46" x2="76.2" y2="157.48" width="0.1524" layer="91"/>
-<wire x1="76.2" y1="157.48" x2="139.7" y2="157.48" width="0.1524" layer="91"/>
-<pinref part="IC3" gate="G$1" pin="VDD"/>
-<wire x1="139.7" y1="157.48" x2="139.7" y2="147.32" width="0.1524" layer="91"/>
-<pinref part="C11" gate="G$1" pin="1"/>
-<wire x1="139.7" y1="157.48" x2="144.78" y2="157.48" width="0.1524" layer="91"/>
-<junction x="139.7" y="157.48"/>
-<wire x1="144.78" y1="157.48" x2="157.48" y2="157.48" width="0.1524" layer="91"/>
-<junction x="144.78" y="157.48"/>
-<pinref part="IC3" gate="G$1" pin="A1"/>
-<wire x1="157.48" y1="119.38" x2="162.56" y2="119.38" width="0.1524" layer="91"/>
-<wire x1="162.56" y1="119.38" x2="162.56" y2="121.92" width="0.1524" layer="91"/>
-<wire x1="162.56" y1="121.92" x2="162.56" y2="157.48" width="0.1524" layer="91"/>
-<wire x1="162.56" y1="157.48" x2="157.48" y2="157.48" width="0.1524" layer="91"/>
-<pinref part="IC3" gate="G$1" pin="A0"/>
-<wire x1="157.48" y1="121.92" x2="162.56" y2="121.92" width="0.1524" layer="91"/>
-<junction x="162.56" y="121.92"/>
-</segment>
-</net>
 <net name="N$21" class="0">
 <segment>
 <pinref part="IC3" gate="G$1" pin="VSS"/>
@@ -32768,6 +32746,42 @@ new: Attribute TP_SIGNAL_NAME&lt;br&gt;
 <wire x1="121.92" y1="149.86" x2="101.6" y2="149.86" width="0.1524" layer="91"/>
 <wire x1="101.6" y1="149.86" x2="101.6" y2="132.08" width="0.1524" layer="91"/>
 <junction x="101.6" y="132.08"/>
+<pinref part="CMP_BRKOUT" gate="G$1" pin="5"/>
+<wire x1="76.2" y1="119.38" x2="66.04" y2="119.38" width="0.1524" layer="91"/>
+<wire x1="66.04" y1="119.38" x2="66.04" y2="83.82" width="0.1524" layer="91"/>
+<wire x1="66.04" y1="83.82" x2="66.04" y2="66.04" width="0.1524" layer="91"/>
+<wire x1="66.04" y1="66.04" x2="162.56" y2="66.04" width="0.1524" layer="91"/>
+<pinref part="IC3" gate="G$1" pin="N/C_3"/>
+<wire x1="162.56" y1="66.04" x2="162.56" y2="116.84" width="0.1524" layer="91"/>
+<wire x1="162.56" y1="116.84" x2="157.48" y2="116.84" width="0.1524" layer="91"/>
+<wire x1="76.2" y1="121.92" x2="76.2" y2="119.38" width="0.1524" layer="91"/>
+<junction x="76.2" y="121.92"/>
+<junction x="76.2" y="119.38"/>
+<pinref part="CMP_BRKOUT" gate="G$1" pin="7"/>
+<wire x1="76.2" y1="116.84" x2="68.58" y2="116.84" width="0.1524" layer="91"/>
+<wire x1="68.58" y1="116.84" x2="68.58" y2="83.82" width="0.1524" layer="91"/>
+<wire x1="68.58" y1="83.82" x2="68.58" y2="68.58" width="0.1524" layer="91"/>
+<wire x1="68.58" y1="68.58" x2="142.24" y2="68.58" width="0.1524" layer="91"/>
+<pinref part="IC3" gate="G$1" pin="N/C_2"/>
+<wire x1="142.24" y1="68.58" x2="160.02" y2="68.58" width="0.1524" layer="91"/>
+<wire x1="160.02" y1="68.58" x2="160.02" y2="114.3" width="0.1524" layer="91"/>
+<wire x1="160.02" y1="114.3" x2="157.48" y2="114.3" width="0.1524" layer="91"/>
+<pinref part="C12" gate="G$1" pin="2"/>
+<junction x="142.24" y="68.58"/>
+<wire x1="76.2" y1="119.38" x2="76.2" y2="116.84" width="0.1524" layer="91"/>
+<junction x="76.2" y="116.84"/>
+<pinref part="CMP_BRKOUT" gate="G$1" pin="9"/>
+<wire x1="76.2" y1="114.3" x2="76.2" y2="109.22" width="0.1524" layer="91"/>
+<wire x1="76.2" y1="109.22" x2="78.74" y2="109.22" width="0.1524" layer="91"/>
+<wire x1="78.74" y1="109.22" x2="119.38" y2="109.22" width="0.1524" layer="91"/>
+<pinref part="C21" gate="G$1" pin="1"/>
+<wire x1="119.38" y1="93.98" x2="119.38" y2="109.22" width="0.1524" layer="91"/>
+<pinref part="IC3" gate="G$1" pin="N/C_1"/>
+<wire x1="119.38" y1="109.22" x2="119.38" y2="114.3" width="0.1524" layer="91"/>
+<wire x1="119.38" y1="114.3" x2="121.92" y2="114.3" width="0.1524" layer="91"/>
+<junction x="119.38" y="109.22"/>
+<wire x1="76.2" y1="116.84" x2="76.2" y2="114.3" width="0.1524" layer="91"/>
+<junction x="76.2" y="114.3"/>
 </segment>
 </net>
 <net name="N$22" class="0">
@@ -32807,6 +32821,29 @@ new: Attribute TP_SIGNAL_NAME&lt;br&gt;
 <pinref part="CMP_BRKOUT" gate="G$1" pin="2"/>
 <wire x1="91.44" y1="124.46" x2="96.52" y2="124.46" width="0.1524" layer="91"/>
 <wire x1="96.52" y1="124.46" x2="96.52" y2="76.2" width="0.1524" layer="91"/>
+<wire x1="91.44" y1="124.46" x2="91.44" y2="129.54" width="0.1524" layer="91"/>
+<junction x="91.44" y="124.46"/>
+<pinref part="CMP_BRKOUT" gate="G$1" pin="1"/>
+<wire x1="76.2" y1="124.46" x2="76.2" y2="129.54" width="0.1524" layer="91"/>
+<wire x1="76.2" y1="129.54" x2="76.2" y2="157.48" width="0.1524" layer="91"/>
+<wire x1="76.2" y1="157.48" x2="139.7" y2="157.48" width="0.1524" layer="91"/>
+<pinref part="IC3" gate="G$1" pin="VDD"/>
+<wire x1="139.7" y1="157.48" x2="139.7" y2="147.32" width="0.1524" layer="91"/>
+<pinref part="C11" gate="G$1" pin="1"/>
+<wire x1="139.7" y1="157.48" x2="144.78" y2="157.48" width="0.1524" layer="91"/>
+<junction x="139.7" y="157.48"/>
+<wire x1="144.78" y1="157.48" x2="157.48" y2="157.48" width="0.1524" layer="91"/>
+<junction x="144.78" y="157.48"/>
+<pinref part="IC3" gate="G$1" pin="A1"/>
+<wire x1="157.48" y1="119.38" x2="162.56" y2="119.38" width="0.1524" layer="91"/>
+<wire x1="162.56" y1="119.38" x2="162.56" y2="121.92" width="0.1524" layer="91"/>
+<wire x1="162.56" y1="121.92" x2="162.56" y2="157.48" width="0.1524" layer="91"/>
+<wire x1="162.56" y1="157.48" x2="157.48" y2="157.48" width="0.1524" layer="91"/>
+<pinref part="IC3" gate="G$1" pin="A0"/>
+<wire x1="157.48" y1="121.92" x2="162.56" y2="121.92" width="0.1524" layer="91"/>
+<junction x="162.56" y="121.92"/>
+<wire x1="91.44" y1="129.54" x2="76.2" y2="129.54" width="0.1524" layer="91"/>
+<junction x="76.2" y="129.54"/>
 </segment>
 </net>
 <net name="N$24" class="0">
@@ -32838,47 +32875,6 @@ new: Attribute TP_SIGNAL_NAME&lt;br&gt;
 <pinref part="C21" gate="G$1" pin="2"/>
 <wire x1="134.62" y1="93.98" x2="127" y2="93.98" width="0.1524" layer="91"/>
 <junction x="134.62" y="93.98"/>
-</segment>
-</net>
-<net name="N$31" class="0">
-<segment>
-<pinref part="CMP_BRKOUT" gate="G$1" pin="5"/>
-<wire x1="76.2" y1="119.38" x2="66.04" y2="119.38" width="0.1524" layer="91"/>
-<wire x1="66.04" y1="119.38" x2="66.04" y2="83.82" width="0.1524" layer="91"/>
-<wire x1="66.04" y1="83.82" x2="66.04" y2="66.04" width="0.1524" layer="91"/>
-<wire x1="66.04" y1="66.04" x2="162.56" y2="66.04" width="0.1524" layer="91"/>
-<pinref part="IC3" gate="G$1" pin="N/C_3"/>
-<wire x1="162.56" y1="66.04" x2="162.56" y2="116.84" width="0.1524" layer="91"/>
-<wire x1="162.56" y1="116.84" x2="157.48" y2="116.84" width="0.1524" layer="91"/>
-</segment>
-</net>
-<net name="N$32" class="0">
-<segment>
-<pinref part="CMP_BRKOUT" gate="G$1" pin="7"/>
-<wire x1="76.2" y1="116.84" x2="68.58" y2="116.84" width="0.1524" layer="91"/>
-<wire x1="68.58" y1="116.84" x2="68.58" y2="83.82" width="0.1524" layer="91"/>
-<wire x1="68.58" y1="83.82" x2="68.58" y2="68.58" width="0.1524" layer="91"/>
-<wire x1="68.58" y1="68.58" x2="142.24" y2="68.58" width="0.1524" layer="91"/>
-<pinref part="IC3" gate="G$1" pin="N/C_2"/>
-<wire x1="142.24" y1="68.58" x2="160.02" y2="68.58" width="0.1524" layer="91"/>
-<wire x1="160.02" y1="68.58" x2="160.02" y2="114.3" width="0.1524" layer="91"/>
-<wire x1="160.02" y1="114.3" x2="157.48" y2="114.3" width="0.1524" layer="91"/>
-<pinref part="C12" gate="G$1" pin="2"/>
-<junction x="142.24" y="68.58"/>
-</segment>
-</net>
-<net name="N$33" class="0">
-<segment>
-<pinref part="CMP_BRKOUT" gate="G$1" pin="9"/>
-<wire x1="76.2" y1="114.3" x2="76.2" y2="109.22" width="0.1524" layer="91"/>
-<wire x1="76.2" y1="109.22" x2="78.74" y2="109.22" width="0.1524" layer="91"/>
-<wire x1="78.74" y1="109.22" x2="119.38" y2="109.22" width="0.1524" layer="91"/>
-<pinref part="C21" gate="G$1" pin="1"/>
-<wire x1="119.38" y1="93.98" x2="119.38" y2="109.22" width="0.1524" layer="91"/>
-<pinref part="IC3" gate="G$1" pin="N/C_1"/>
-<wire x1="119.38" y1="109.22" x2="119.38" y2="114.3" width="0.1524" layer="91"/>
-<wire x1="119.38" y1="114.3" x2="121.92" y2="114.3" width="0.1524" layer="91"/>
-<junction x="119.38" y="109.22"/>
 </segment>
 </net>
 </nets>
