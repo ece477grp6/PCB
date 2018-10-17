@@ -32170,6 +32170,24 @@ new: Attribute TP_SIGNAL_NAME&lt;br&gt;
 <wire x1="88.9" y1="185.42" x2="88.9" y2="175.26" width="0.1524" layer="91"/>
 <label x="88.9" y="175.26" size="1.778" layer="95" rot="R90"/>
 </segment>
+<segment>
+<pinref part="LEFT_MOTOR" gate="G$1" pin="5"/>
+<pinref part="LM_SW" gate="1" pin="S"/>
+<wire x1="93.98" y1="185.42" x2="93.98" y2="177.8" width="0.1524" layer="91"/>
+<pinref part="R46" gate="G$1" pin="1"/>
+<wire x1="99.06" y1="185.42" x2="93.98" y2="185.42" width="0.1524" layer="91"/>
+<junction x="93.98" y="185.42"/>
+<label x="93.98" y="177.8" size="1.778" layer="95" rot="R90"/>
+</segment>
+<segment>
+<pinref part="RM_SW" gate="1" pin="S"/>
+<wire x1="129.54" y1="185.42" x2="129.54" y2="177.8" width="0.1524" layer="91"/>
+<pinref part="RIGHT_MOTOR" gate="G$1" pin="5"/>
+<pinref part="R53" gate="G$1" pin="1"/>
+<wire x1="134.62" y1="185.42" x2="129.54" y2="185.42" width="0.1524" layer="91"/>
+<junction x="129.54" y="185.42"/>
+<label x="129.54" y="177.8" size="1.778" layer="95" rot="R90"/>
+</segment>
 </net>
 <net name="VCC" class="0">
 <segment>
@@ -32377,26 +32395,6 @@ new: Attribute TP_SIGNAL_NAME&lt;br&gt;
 <wire x1="91.44" y1="180.34" x2="91.44" y2="167.64" width="0.1524" layer="91"/>
 <pinref part="LM_SW" gate="1" pin="D"/>
 <wire x1="91.44" y1="167.64" x2="93.98" y2="167.64" width="0.1524" layer="91"/>
-</segment>
-</net>
-<net name="N$71" class="0">
-<segment>
-<pinref part="LEFT_MOTOR" gate="G$1" pin="5"/>
-<pinref part="LM_SW" gate="1" pin="S"/>
-<wire x1="93.98" y1="185.42" x2="93.98" y2="177.8" width="0.1524" layer="91"/>
-<pinref part="R46" gate="G$1" pin="1"/>
-<wire x1="99.06" y1="185.42" x2="93.98" y2="185.42" width="0.1524" layer="91"/>
-<junction x="93.98" y="185.42"/>
-</segment>
-</net>
-<net name="N$72" class="0">
-<segment>
-<pinref part="RM_SW" gate="1" pin="S"/>
-<wire x1="129.54" y1="185.42" x2="129.54" y2="177.8" width="0.1524" layer="91"/>
-<pinref part="RIGHT_MOTOR" gate="G$1" pin="5"/>
-<pinref part="R53" gate="G$1" pin="1"/>
-<wire x1="134.62" y1="185.42" x2="129.54" y2="185.42" width="0.1524" layer="91"/>
-<junction x="129.54" y="185.42"/>
 </segment>
 </net>
 <net name="N$73" class="0">

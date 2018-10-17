@@ -32733,7 +32733,7 @@ new: Attribute TP_SIGNAL_NAME&lt;br&gt;
 <busses>
 </busses>
 <nets>
-<net name="N$21" class="0">
+<net name="GND_BREAKOUT" class="0">
 <segment>
 <pinref part="IC3" gate="G$1" pin="VSS"/>
 <wire x1="121.92" y1="149.86" x2="137.16" y2="149.86" width="0.1524" layer="91"/>
@@ -32793,6 +32793,7 @@ new: Attribute TP_SIGNAL_NAME&lt;br&gt;
 <junction x="119.38" y="109.22"/>
 <wire x1="76.2" y1="116.84" x2="76.2" y2="114.3" width="0.1524" layer="91"/>
 <junction x="76.2" y="114.3"/>
+<label x="66.04" y="99.06" size="1.778" layer="95" rot="R90"/>
 </segment>
 </net>
 <net name="N$22" class="0">
@@ -32811,7 +32812,7 @@ new: Attribute TP_SIGNAL_NAME&lt;br&gt;
 <wire x1="91.44" y1="91.44" x2="91.44" y2="114.3" width="0.1524" layer="91"/>
 </segment>
 </net>
-<net name="N$30" class="0">
+<net name="VDD_BREAKOUT" class="0">
 <segment>
 <pinref part="IC3" gate="G$1" pin="VDD_IO"/>
 <wire x1="142.24" y1="76.2" x2="142.24" y2="93.98" width="0.1524" layer="91"/>
@@ -32855,6 +32856,7 @@ new: Attribute TP_SIGNAL_NAME&lt;br&gt;
 <junction x="162.56" y="121.92"/>
 <wire x1="91.44" y1="129.54" x2="76.2" y2="129.54" width="0.1524" layer="91"/>
 <junction x="76.2" y="129.54"/>
+<label x="76.2" y="137.16" size="1.778" layer="95" rot="R90"/>
 </segment>
 </net>
 <net name="N$24" class="0">
